@@ -1,0 +1,398 @@
+{
+  "videojuegos": [
+    {
+      "id": "1",
+      "nombre": "EA FC 25",
+      "descripción": "Un videojuego de fútbol, desarrollado por EA, conocido popularmente como FIFA.",
+      "fecha_lanzamiento": "2024-09-27",
+      "compañía": "EA SPORTS",
+      "plataformas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "categorias": [
+        7
+      ],
+      "precio": 69.99,
+      "url_imagen": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/07/portada-sencilla-ea-fc-25-3747994.jpg?tf=1200x1200",
+      "url_video": "https://www.youtube.com/watch?v=v_uEjjV3ACc"
+    },
+    {
+      "id": "2",
+      "nombre": "Cyberpunk 2077",
+      "descripción": "Cyberpunk 2077 es un videojuego de rol de acción en un mundo abierto desarrollado por CD Projekt Red. Ambientado en el año 2077, el juego se desarrolla en Night City, una megaciudad futurista llena de corrupción, tecnología avanzada y un profundo conflicto social. Los jugadores asumen el papel de V, un mercenario que lucha por sobrevivir en este entorno hostil, mientras busca un implante cibernético que le otorgue inmortalidad.",
+      "fecha_lanzamiento": "2020-12-10",
+      "compañía": "CD Projekt Red",
+      "plataformas": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "categorias": [
+        5,
+        8
+      ],
+      "precio": 49.99,
+      "url_imagen": "https://assets.xboxservices.com/assets/f4/75/f475ff8f-4217-4040-99fb-bf86ed0fccb4.jpg?n=Cyberpunk-2077_GLP-Page-Hero-0_1083x1222.jpg",
+      "url_video": "https://www.youtube.com/watch?v=8X2kIfS6fb8"
+    },
+    {
+      "id": "3",
+      "nombre": "GTA 6",
+      "descripción": "La última entrega de la famosa saga de videojuegos de mundo abierto, donde los jugadores exploran ciudades, cometen delitos y viven una experiencia sin límites.",
+      "fecha_lanzamiento": "2025-12-05",
+      "compañía": "Rockstar Games",
+      "plataformas": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "categorias": [
+        1,
+        2
+      ],
+      "precio": 79.99,
+      "url_imagen": "https://i.ytimg.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
+      "url_video": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+    },    
+    {
+      "id": "4",
+      "nombre": "Black Ops 6",
+      "descripción": "Un videojuego de acción de disparos en primera persona desarrollado por Treyarch y publicado por Activision",
+      "fecha_lanzamiento": "2024-10-25",
+      "compañía": "Activision",
+      "plataformas": [
+        1,
+        2,
+        3
+      ],
+      "categorias": [
+        4
+      ],
+      "precio": 79.99,
+      "url_imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-uYW0yFyn3IEPPBXP7-VsWnTOf3HRQAsboQ&s",
+      "url_video": "https://www.youtube.com/watch?v=K7wW6V0OiIU"
+    },
+    {
+      "id": "5",
+      "nombre": "Valorant",
+      "descripción": "Un shooter táctico en primera persona de estilo hero shooter, desarrollado y publicado por Riot Games",
+      "fecha_lanzamiento": "2020-06-02",
+      "compañía": "Riot Games",
+      "plataformas": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "categorias": [
+        4,
+        5,
+        12
+      ],
+      "precio": 0,
+      "url_imagen": "https://store-images.s-microsoft.com/image/apps.21507.13663857844271189.4c1de202-3961-4c40-a0aa-7f4f1388775a.20ed7782-0eda-4f9d-b421-4cc47492edc6",
+      "url_video": "https://www.youtube.com/watch?v=Ey770ez6ROk"
+    },
+    {
+      "id": "6",
+      "nombre": "Fortnite",
+      "descripción": "Un juego de batalla real donde los jugadores compiten para ser el último en pie.",
+      "fecha_lanzamiento": "2017-07-25",
+      "compañía": "Epic Games",
+      "plataformas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "categorias": [
+        4,
+        8,
+        12
+      ],
+      "precio": 0,
+      "url_imagen": "https://i.3djuegos.com/juegos/8298/fortnite/fotos/ficha/fortnite-5154590.jpg",
+      "url_video": "https://www.youtube.com/watch?v=2gUtfBmw86Y"
+    },
+    {
+      "id": "7",
+      "nombre": "Clash Royale",
+      "descripción": "Un juego de estrategia en tiempo real que combina elementos de los juegos de cartas y los juegos de torres.",
+      "fecha_lanzamiento": "2016-03-02",
+      "compañía": "Supercell",
+      "plataformas": [
+        5,
+        6
+      ],
+      "categorias": [
+        5,
+        11,
+        12
+      ],
+      "precio": 0,
+      "url_imagen": "https://i.pinimg.com/736x/5a/fa/49/5afa49659cc047adcfd8eb673769d4c9.jpg",
+      "url_video": "https://www.youtube.com/watch?v=JRHj3J2K0W0"
+    },
+    {
+      "id": "9",
+      "nombre": "Super Mario Bros",
+      "descripción": "Un clásico juego de plataformas donde Mario debe rescatar a la Princesa Peach de Bowser.",
+      "fecha_lanzamiento": "1985-09-13",
+      "compañía": "Nintendo",
+      "plataformas": [
+        4
+      ],
+      "categorias": [
+        3
+      ],
+      "precio": 19.99,
+      "url_imagen": "https://cdn.atomix.vg/wp-content/uploads/2023/10/Review-Super-Mario-Bros.-Wonder.jpg",
+      "url_video": "https://www.youtube.com/watch?v=7qirrV8w5SQ"
+    },
+    {
+      "id": "10",
+      "nombre": "Spider-Man 2",
+      "descripción": "Un juego de acción y aventuras basado en el famoso superhéroe de Marvel.",
+      "fecha_lanzamiento": "2023-10-20",
+      "compañía": "Insomniac Games",
+      "plataformas": [
+        2,
+        4
+      ],
+      "categorias": [
+        8
+      ],
+      "precio": 69.99,
+      "url_imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1219/1c7b75d8ed9271516546560d219ad0b22ee0a263b4537bd8.png",
+      "url_video": "https://www.youtube.com/watch?v=qIQ3xNqkVC4"
+    },
+    {
+      "id": "11",
+      "nombre": "Minecraft",
+      "descripción": "Un juego de sandbox que permite a los jugadores construir y explorar mundos hechos de bloques.",
+      "fecha_lanzamiento": "2011-11-18",
+      "compañía": "Mojang Studios",
+      "plataformas": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "categorias": [
+        6,
+        8
+      ],
+      "precio": 26.95,
+      "url_imagen": "https://pub-f354ec240bea480db7320bd0e29d972e.r2.dev/sites/4/15YR_Free_Cape-1-7cbcb0739e3df57534ec-9063efed017354d1b1c3.jpg",
+      "url_video": "https://www.youtube.com/watch?v=MmB9b5njVbA"
+    },
+    {
+      "id": "12",
+      "nombre": "Elden Ring",
+      "descripción": "Un juego de rol de acción en un mundo abierto desarrollado por FromSoftware.",
+      "fecha_lanzamiento": "2022-02-25",
+      "compañía": "FromSoftware",
+      "plataformas": [
+        1,
+        2,
+        3
+      ],
+      "categorias": [
+        5,
+        8
+      ],
+      "precio": 59.99,
+      "url_imagen": "https://static.posters.cz/image/750/posters/elden-ring-battlefield-of-the-fallen-i121753.jpg",
+      "url_video": "https://www.youtube.com/watch?v=E3Huy2cdih0"
+    },
+    {
+      "id": "13",
+      "nombre": "The Legend of Zelda",
+      "descripción": "Un juego de aventuras de mundo abierto donde los jugadores toman el control de Link para salvar el reino de Hyrule.",
+      "fecha_lanzamiento": "2017-03-03",
+      "compañía": "Nintendo",
+      "plataformas": [
+        4,
+        7
+      ],
+      "categorias": [
+        8,
+        7
+      ],
+      "precio": 59.99,
+      "url_imagen": "https://static.posters.cz/image/750/pinturas-sobre-lienzo-the-legend-of-zelda-breath-of-the-wild-sunset-i111061.jpg",
+      "url_video": "https://www.youtube.com/watch?v=ofH5ptn5w-A"
+    },
+    {
+      "id": "14",
+      "nombre": "Red Dead Redemption 2",
+      "descripción": "Un juego de acción y aventura en un mundo abierto ambientado en el Oeste americano, donde los jugadores asumen el papel de Arthur Morgan.",
+      "fecha_lanzamiento": "2018-10-26",
+      "compañía": "Rockstar Games",
+      "plataformas": [
+        1,
+        2,
+        3
+      ],
+      "categorias": [
+        1,
+        8
+      ],
+      "precio": 49.99,
+      "url_imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Zw3ba8igTlqTD-rCWWQgpjA1dFwTv0DV3w&s",
+      "url_video": "https://www.youtube.com/watch?v=MyaYlbizpvs"
+    },
+    {
+      "id": "15",
+      "nombre": "Rocket League",
+      "descripción": "Un juego de fútbol con vehículos donde los jugadores controlan autos para empujar una pelota gigante y marcar goles en partidos rápidos y competitivos.",
+      "fecha_lanzamiento": "2015-07-07",
+      "compañía": "Psyonix",
+      "plataformas": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "categorias": [
+        2,
+        7,
+        12
+      ],
+      "precio": 0,
+      "url_imagen": "https://upload.wikimedia.org/wikipedia/en/1/13/Rocket_League_cover.png",
+      "url_video": "https://www.youtube.com/watch?v=OmMF9EDbmQQ"
+    },
+    {
+      "id": "16",
+      "nombre": "Goat Simulator",
+      "descripción": "Un juego de simulación excéntrico en el que los jugadores toman el control de una cabra en un mundo abierto, causando caos y realizando trucos divertidos.",
+      "fecha_lanzamiento": "2014-04-01",
+      "compañía": "Coffee Stain Studios",
+      "plataformas": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "categorias": [
+        6,
+        1
+      ],
+      "precio": 9.99,
+      "url_imagen": "https://gamepasslist.app/_ipx/f_webp,q_80/https://images.igdb.com/igdb/image/upload/t_cover_big/co8pe5.png",
+      "url_video": "https://www.youtube.com/watch?v=dvWGLcdI8o8"
+    },
+    {
+      "id": "17",
+      "nombre": "Tetris 99",
+      "descripción": "Una versión de Tetris con un giro competitivo en línea, donde 99 jugadores luchan para ser el último en pie mientras resuelven puzzles de Tetris.",
+      "fecha_lanzamiento": "2019-02-13",
+      "compañía": "Nintendo",
+      "plataformas": [
+        4
+      ],
+      "categorias": [
+        3,
+        4,
+        12
+      ],
+      "precio": 0,
+      "url_imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8hSA4A6CLghC8JM3dCZ5UU4TYhlp7V2f2A&s",
+      "url_video": "https://www.youtube.com/watch?v=HT7ldEvV-1c"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "nombre": "Lucha"
+    },
+    {
+      "id": "2",
+      "nombre": "Arcade"
+    },
+    {
+      "id": "3",
+      "nombre": "Plataformas"
+    },
+    {
+      "id": "4",
+      "nombre": "Shooter"
+    },
+    {
+      "id": "5",
+      "nombre": "Estrategia"
+    },
+    {
+      "id": "6",
+      "nombre": "Simulación"
+    },
+    {
+      "id": "7",
+      "nombre": "Deporte"
+    },
+    {
+      "id": "8",
+      "nombre": "Aventura"
+    },
+    {
+      "id": "9",
+      "nombre": "Rol"
+    },
+    {
+      "id": "10",
+      "nombre": "Educación"
+    },
+    {
+      "id": "11",
+      "nombre": "Puzzle"
+    },
+    {
+      "id": "12",
+      "nombre": "Free To Play"
+    }
+  ],
+  "plataformas": [
+    {
+      "id": "1",
+      "nombre": "PC"
+    },
+    {
+      "id": "2",
+      "nombre": "PS5"
+    },
+    {
+      "id": "3",
+      "nombre": "Xbox One"
+    },
+    {
+      "id": "4",
+      "nombre": "Switch"
+    },
+    {
+      "id": "5",
+      "nombre": "Android"
+    },
+    {
+      "id": "6",
+      "nombre": "iOS"
+    },
+    {
+      "id": "7",
+      "nombre": "Otras"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+/* Estilo general para el contenedor de la lista */
+.videojuegos-list {
+    padding: 30px;
+    background-color: #f0f4f8;
+    color: #242424;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2d3a3f;
+    margin-bottom: 30px;
+}
+
+/* Estilo para el contenedor horizontal */
+.videojuegos-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite envolver los elementos cuando no haya espacio */
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+    justify-content: space-between;
+    /* Distribuye el espacio de manera equitativa */
+    padding-bottom: 10px;
+}
+
+/* Estilo para cada item de videojuego */
+.videojuego-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding: 20px;
+    width: calc(25% - 20px);
+    /* 4 elementos por fila, con 20px de espacio entre ellos */
+    text-align: center;
+    box-sizing: border-box;
+    /* Asegura que el padding no afecte el cálculo del tamaño */
+}
+
+.videojuego-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilo para los títulos de los videojuegos */
+.videojuego-item h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la imagen de la portada */
+.videojuego-portada {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para los iframes de video */
+.videojuego-portada {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* Estilo para los párrafos con información adicional */
+p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #2d3a3f;
+}
+
+/* Estilo para plataformas y categorías */
+.videojuego-item p {
+    color: #666;
+}
+
+.videojuego-item p:last-of-type {
+    font-size: 1.2em;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Estilo para los precios */
+.videojuego-item p strong {
+    color: #28a745;
+}
+
+/* Estilo para la descripción */
+.videojuego-item p:last-child {
+    font-size: 1em;
+    color: #555;
+}
+
+.videojuego-item h3:hover {
+    color: #002705;
+    cursor: pointer;
+}
+
+.ver-trailer {
+    display: inline-block;
+    background-color: #004e11;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ver-trailer:hover {
+    background-color: #001f07;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.filtro-menu {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.opciones-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.opcion-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 15px;
+    background: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.opcion-item:hover {
+    background: #e9ecef;
+    border-color: #ced4da;
+}
+
+.opcion-item input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.videojuego-detalle {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.videojuego-portada-detalle {
+    width: 100%;
+    height: auto;
+}
+
+.videojuego-item {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.detalle-videojuego-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.detalle-videojuego {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.detalle-videojuego button {
+    margin: 10px 0;
+}
+
+
+.detalle-imagen {
+    max-width: 200px;
+    height: auto;
+}
+
+
+.detalle-videojuego-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-videojuego {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ver-trailer-videojuego {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.detalle-videojuego-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-videojuego {
+    background-color: white;
+    width: 80%;
+    height: auto;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detalle-videojuego-buttons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex-start;
+    height: auto;
+    justify-content: space-between;
+}
+
+.delete-button-videojuego {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 20px;
+}
+
+.delete-button-videojuego:hover {
+    background-color: #9b0000;
+}
+
+.ver-trailer-bottom {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: auto;
+}
