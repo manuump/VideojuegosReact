@@ -9,7 +9,13 @@ const FiltroMenu = ({ titulo, opciones, seleccionados, onToggle }) => (
           <input
             type="checkbox"
             checked={seleccionados.includes(Number(id))}
-            onChange={() => onToggle(Number(id))}
+            onChange={() => {
+              if (seleccionados.includes(Number(id))) {
+                onToggle(seleccionados.filter(item => item !== Number(id)));
+              } else {
+                onToggle([...seleccionados, Number(id)]);
+              }
+            }}
           />
           {nombre}
         </label>
@@ -17,5 +23,6 @@ const FiltroMenu = ({ titulo, opciones, seleccionados, onToggle }) => (
     </div>
   </div>
 );
+
 
 export default FiltroMenu;

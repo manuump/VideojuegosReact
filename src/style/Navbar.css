@@ -1,0 +1,83 @@
+/* Estilo de la Navbar */
+.navbar {
+    background-color: #333333e7;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Efecto hover sobre el título */
+.logo a:hover {
+    color: #4cf708;
+    transform: scale(1.1);
+}
+
+/* Estilo del logo */
+.logo-img {
+    width: 40px;
+    /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin-right: 10px;
+    /* Espacio entre el logo y el texto */
+}
+
+/* Agregar un gradiente al texto */
+.titulo-pagina {
+    background: linear-gradient(90deg, #4cf708, #ff6f61);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover en el gradiente */
+.titulo-pagina:hover {
+    background: linear-gradient(90deg, #4cf708, #ff6f61, #8e44ad);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #4cf708;
+}
