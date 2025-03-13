@@ -394,5 +394,17 @@
       "id": "7",
       "nombre": "Otras"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "email": "manu@gmail.com",
+      "password": "$2a$10$olPQyc/BrtNxIwI5B05hz.BToVSZNTXnlXNxmMfijb7pemxwY51cC",
+      "id": "6UdfBUY"
+    }
   ]
 }

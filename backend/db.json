@@ -60,7 +60,7 @@
       "precio": 79.99,
       "url_imagen": "https://i.ytimg.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
       "url_video": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
-    },    
+    },
     {
       "id": "4",
       "nombre": "Black Ops 6",
@@ -393,6 +393,38 @@
     {
       "id": "7",
       "nombre": "Otras"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "email": "manu@gmail.com",
+      "password": "$2a$10$olPQyc/BrtNxIwI5B05hz.BToVSZNTXnlXNxmMfijb7pemxwY51cC",
+      "id": "6UdfBUY"
+    },
+    {
+      "email": "prueba@gmail.com",
+      "password": "$2a$10$JVuaT7WR0pD1FrvQEuQ3xOD4CGbXtuyfuF.2UXlE4cNXfXTVG2Tku",
+      "id": "144dThd"
+    },
+    {
+      "email": "hola@gmail.com",
+      "password": "$2a$10$35V.5UIYC00mSvK4Zb/C4e0iJAm6AmTAaWQCN0KHopCnqxRRD.81W",
+      "id": "EZjIqdm"
+    },
+    {
+      "email": "loco@gmail.com",
+      "password": "$2a$10$BUI8DYUvUhB4VZZLYdtKSeVoavypbrJBKzgxGwjTmQ4DcMR1GptfK",
+      "id": "zUi6kNj"
+    },
+    {
+      "email": "miau@gmail.com",
+      "password": "$2a$10$wZVvDYbEelv95JBKl5ONm.E/7.8YXn.IrazRGC0qoJf9aqrAAWfKa",
+      "id": "8sRNr_Y"
     }
   ]
 }
